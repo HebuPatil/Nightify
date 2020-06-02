@@ -1,12 +1,10 @@
 # Nightify
 <img src="images/32.png"> <br>Nightify is a chrome extension that turns all websites into high contrast mode.
 <br>It has 2 modes, default and high contrast.<br>It is not on the extension store so if you want to try it follow my steps below.
-<br>
-<br>
-How it looks:
-<br>
 You can toggle through the modes by clicking on the extension icon.<br>
-This is how it looks on Google:<br><br>
+<br>
+<br>
+This is how it looks:<br><br>
 <h2>On</h2><br><img src="images/googleon.PNG"><h2>Off</h2><br><img src="images/googleoff.PNG">
 <br>
 <h2>Installation:</h2>
