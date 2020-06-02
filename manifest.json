@@ -1,0 +1,38 @@
+{
+    "manifest_version" : 2,
+    "name": "Nightify",
+    "version": "0.1",
+    "description": "Turns all websites into high contrast mode",
+    "permissions": [ "activeTab", "storage" ],
+    "options_page": "options.html",
+    "icons": {
+        "192":"images/192.png",
+        "16": "images/16.png",
+        "32": "images/32.png"
+     },
+    "content_scripts": [{
+        "matches": [
+            "\u003Call_urls>"
+        ],
+        "js": [
+            "load.js"
+        ],
+        "css": [
+            "style.css"
+        ],
+        "match_about_blank": true,
+        "run_at": "document_start"
+    }],
+    "background": {
+        "persistent": false,
+        "scripts": [ "background.js" ]
+     },
+     "browser_action": {
+        "default_icon": {
+           "16": "images/16.png",
+           "32": "images/32.png"
+        },
+        "default_title": "Nightify // Dark Mode Extension"
+     }
+
+}

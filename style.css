@@ -1,0 +1,175 @@
+
+html:not(.thecolors).inversion {
+  filter: invert(100%) hue-rotate(180deg) brightness(100%) contrast(100%) !important;
+  background-image: none !important;
+  background-color: #fff !important;
+}
+html:not(.thecolors).inversion body {
+  background-image: none !important;
+  background-color: #fff !important;
+  color: #555 !important;
+}
+html:not(.thecolors).inversion img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion canvas,
+html:not(.thecolors).inversion embed,
+html:not(.thecolors).inversion object,
+html:not(.thecolors).inversion video,
+html:not(.thecolors).inversion *[role="img"],
+html:not(.thecolors).inversion iframe[src*="youtube"],
+html:not(.thecolors).inversion iframe[src*="video"],
+html:not(.thecolors).inversion iframe[src*="player"] {
+  filter: contrast(111%) brightness(100%) hue-rotate(-180deg) invert(100%) !important;
+}
+html:not(.thecolors).inversion iframe[src*="disqus"] {
+  filter: initial !important;
+}
+html:not(.thecolors).inversion *[role="img"] img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion *[role="button"] img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion *[role="menu"] img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion *[role="img"] *[role="img"] {
+  filter: initial !important;
+}
+html:not(.thecolors).inversion :-webkit-full-screen img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]):-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen canvas,
+html:not(.thecolors).inversion canvas:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen embed,
+html:not(.thecolors).inversion embed:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen object,
+html:not(.thecolors).inversion object:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen video,
+html:not(.thecolors).inversion video:-webkit-full-screen,
+html:not(.thecolors).inversion *[role="img"]:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen *[role="img"],
+html:not(.thecolors).inversion :-webkit-full-screen iframe[src*="youtube"],
+html:not(.thecolors).inversion iframe[src*="youtube"]:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen iframe[src*="video"],
+html:not(.thecolors).inversion iframe[src*="video"]:-webkit-full-screen,
+html:not(.thecolors).inversion :-webkit-full-screen iframe[src*="player"],
+html:not(.thecolors).inversion iframe[src*="player"]:-webkit-full-screen
+{
+  filter: brightness(100%) contrast(100%) !important;
+}
+/* YouTube */
+html:not(.thecolors) div#player div#theater-background,
+html:not(.thecolors) .html5-video-player,
+html:not(.thecolors) .html5-video-player:not(.ytp-transparent),
+html:not(.thecolors) .html5-video-player.ad-interrupting,
+html:not(.thecolors) .html5-video-player.ended-mode,
+html:not(.thecolors) div#player-theater-container {
+  background-color: #fff !important;
+}
+
+html:not(.thecolors) #masthead {
+  background-color: #aaa !important;
+}
+
+.ytp-ad-overlay-container {
+  display: none !important;
+}
+
+html:not(.thecolors) .ytp-tooltip-bg,
+html:not(.thecolors) .ytp-ce-element,
+html:not(.thecolors) .html5-endscreen,
+html:not(.thecolors) .ytp-upnext,
+html:not(.thecolors) .ytp-fullscreen video {
+  filter: hue-rotate(-180deg) invert(100%) !important;
+}
+
+/* Wikipedia*/
+html:not(.thecolors):not(.inversion) .mw-hiero-table img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html:not(.thecolors).inversion.mw-hiero-table img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]),
+html.thecolors.inversion img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"]) {
+  filter: initial !important;
+}
+
+/* Blogs */
+html:not(.thecolors) canvas.canvas-renderer {
+  background: transparent !important;
+}
+
+/* Facebook */
+html:not(.thecolors) #photos_snowlift > div,
+html:not(.thecolors) .stageWrapper {
+  background-color: #fff !important;
+}
+
+/* Reddit */
+html:not(.thecolors) iframe.media-embed {
+  filter: contrast(100%) brightness(100%) hue-rotate(-180deg) invert(100%) !important;
+}
+
+/* Drive */
+html:not(.thecolors) div[role="dialog"] > div {
+  background-color: #eee !important;
+}
+
+/* Netflix */
+.player-timedtext span {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Twitter */
+html:not(.thecolors) img:not(.tex):not(.math):not(.mathdisplay):not(.math-display):not(.mwe-math-fallback-image-inline):not(.action):not(.actionIcon):not([src*="math"]):not([role="button"]):not([role="menu"])[draggable="true"] {
+  opacity: 1 !important;
+}
+
+/* Scrollbars */
+
+html:not(.thecolors) ::-webkit-scrollbar-thumb,
+html.thecolors.inversion ::-webkit-scrollbar-thumb{
+  min-height: 50px;
+  border: none !important;
+}
+
+html:not(.thecolors) ::-webkit-scrollbar,
+html.thecolors.inversion ::-webkit-scrollbar,
+html:not(.thecolors) ::-webkit-scrollbar-track,
+html.thecolors.inversion ::-webkit-scrollbar-track {
+  border: none !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+html:not(.thecolors) ::-webkit-scrollbar-button,
+html.thecolors.inversion ::-webkit-scrollbar-button {
+  display: none !important;
+}
+
+/* Dark */
+
+html:not(.thecolors) ::-webkit-scrollbar,
+html:not(.thecolors) ::-webkit-scrollbar-track {
+  background: #012 !important;
+}
+
+html:not(.thecolors) ::-webkit-scrollbar-thumb {
+  background: #345 !important;
+  border: none !important;
+}
+
+html:not(.thecolors) ::-webkit-scrollbar-thumb:hover {
+  background: #3582ff !important;
+}
+
+html:not(.thecolors) * ::-webkit-scrollbar,
+html:not(.thecolors) * ::-webkit-scrollbar-track {
+  background: #def !important;
+}
+
+html:not(.thecolors) * ::-webkit-scrollbar-thumb {
+  background: #abc !important;
+}
+/* Light */
+html.thecolors.inversion ::-webkit-scrollbar,
+html.thecolors.inversion ::-webkit-scrollbar-track {
+  background: #def !important;
+}
+
+html.thecolors.inversion ::-webkit-scrollbar-thumb {
+  background: #777 !important;
+}
+
+html.thecolors.inversion ::-webkit-scrollbar-thumb:hover {
+  background-color: #3582ff !important;
+}
