@@ -11,7 +11,7 @@ You can toggle through the modes by clicking on the extension icon.<br>
 5. Done<br>
 
 <br>
-<h2>How it looks:</h2><br><br>
-On<br><img src="images/googleon.PNG">Off<img src="images/googleoff.PNG">
+<h2>How it looks:</h2><br>
+<i>On</i><br><img src="images/googleon.PNG"><i>Off</i><img src="images/googleoff.PNG">
 <br>
 
