@@ -11,7 +11,7 @@ Installation:
 <br>
 How it looks:
 <br>
-You can toggle through the modes by clicking on the extension icon:<br>
-This is how it looks on Google:<br>
+You can toggle through the modes by clicking on the extension icon.<br>
+This is how it looks on Google:<br><br>
 On<br><img src="images/googleon.PNG">Off<br><img src="images/googleoff.PNG">
 
