@@ -11,8 +11,8 @@ Installation:
 <br>
 How it looks:
 <br>
-You can toggle through the modes by clicking on the extension icon<br>
-<img src="images/nightifyon.png"> On <br> <img src="images/nightifyoff.png"> Off<br>
-This is how it looks on Google<br>
+You can toggle through the modes by clicking on the extension icon:<br>
+<img src="images/nightifyon.png">On <img src="images/nightifyoff.png">Off<br>
+This is how it looks on Google:<br>
 On<br><img src="images/googleon.png">Off<br><img src="images/googleoff.png">
 
