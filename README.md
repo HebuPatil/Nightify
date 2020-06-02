@@ -12,7 +12,7 @@ Installation:
 How it looks:
 <br>
 You can toggle through the modes by clicking on the extension icon:<br>
-<img src="images/nightifyon.png">On <img src="images/nightifyoff.png">Off<br>
+<img src="images/nightifyon.PNG">On <img src="images/nightifyoff.PNG">Off<br>
 This is how it looks on Google:<br>
-On<br><img src="images/googleon.png">Off<br><img src="images/googleoff.png">
+On<br><img src="images/googleon.PNG">Off<br><img src="images/googleoff.PNG">
 
