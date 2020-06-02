@@ -7,9 +7,9 @@ How it looks:
 <br>
 You can toggle through the modes by clicking on the extension icon.<br>
 This is how it looks on Google:<br><br>
-On<br><img src="images/googleon.PNG">Off<br><img src="images/googleoff.PNG">
+<h2>On</h2><br><br><img src="images/googleon.PNG"><h2>Off</h2><br><br><img src="images/googleoff.PNG">
 <br>
-Installation:
+<h2>Installation:</h2><br>
 1. Download this project off Github and unzip it<br>
 2. Open Chrome and go to chrome://extensions<br>
 3. Toggle on developer mode (top right of screen) and click Load Unpacked<br>
